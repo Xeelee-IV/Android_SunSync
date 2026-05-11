@@ -113,16 +113,3 @@ void handleEmergencyFlash() {
     restoreNormalLighting();
   }
 }
-
-/*
- * In your loop():
- *
- *   void loop() {
- *     // ... your existing code ...
- *     handleEmergencyFlash();    // <-- add this
- *   }
- *
- * In your setup():
- *
- *   registerEmergencyRoutes(server);  // <-- add this alongside your other routes
- */
